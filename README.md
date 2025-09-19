@@ -7,28 +7,27 @@ It includes data preprocessing, assembly, binning, dereplication, genome quality
 
 ## Repository Structure
 
-MGA-GE/
-│
-├── figure/ # R scripts for data visualization
-│ ├── Bar Plot.R
-│ ├── Box Plot.R
-│ ├── Bubble Plot.R
-│ ├── Gene Locus Plot.R
-│ ├── Polar Bar Plot.R
-│ ├── Sankey Diagram.R
-│ ├── Scatter plot with marginal histograms.R
-│ ├── Stacked Bar Plot.R
-│ └── Sunburst Plot.R
-│
-├── workflows/ # Workflow documentation
-│ ├── Assembly.md
-│ ├── Binning.md
-│ ├── CoverM.md
-│ ├── Quality control.md
-│ └── dRep_CheckM.md
-│
-└── README.md
+## Repository Structure
 
+- **figure/** – R scripts for data visualization
+  - Bar Plot.R
+  - Box Plot.R
+  - Bubble Plot.R
+  - Gene Locus Plot.R
+  - Polar Bar Plot.R
+  - Sankey Diagram.R
+  - Scatter plot with marginal histograms.R
+  - Stacked Bar Plot.R
+  - Sunburst Plot.R
+
+- **workflows/** – Workflow documentation
+  - Assembly.md
+  - Binning.md
+  - CoverM.md
+  - Quality control.md
+  - dRep_CheckM.md
+
+- **README.md**
 
 ---
 
