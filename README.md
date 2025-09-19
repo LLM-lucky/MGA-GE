@@ -21,10 +21,10 @@ It includes data preprocessing, assembly, binning, dereplication, genome quality
   - Sunburst Plot.R
 
 - **workflows/** – Workflow documentation
+  - Quality control.md
   - Assembly.md
   - Binning.md
   - CoverM.md
-  - Quality control.md
   - dRep_CheckM.md
 
 - **README.md**
