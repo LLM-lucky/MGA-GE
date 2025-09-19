@@ -7,50 +7,27 @@ It includes data preprocessing, assembly, binning, dereplication, genome quality
 
 ## Repository Structure
 
-## Repository Structure
+- **figure/** – R scripts for data visualization  
+  Includes bar plots, stacked bar plots, box plots, bubble plots (KEGG/functional categories), gene locus plots, polar bar plots, sankey diagrams, sunburst plots, and scatter plots with marginal histograms.  
+  - Bar Plot.R  
+  - Box Plot.R  
+  - Bubble Plot.R  
+  - Gene Locus Plot.R  
+  - Polar Bar Plot.R  
+  - Sankey Diagram.R  
+  - Scatter plot with marginal histograms.R  
+  - Stacked Bar Plot.R  
+  - Sunburst Plot.R  
 
-- **figure/** – R scripts for data visualization
-  - Bar Plot.R
-  - Box Plot.R
-  - Bubble Plot.R
-  - Gene Locus Plot.R
-  - Polar Bar Plot.R
-  - Sankey Diagram.R
-  - Scatter plot with marginal histograms.R
-  - Stacked Bar Plot.R
-  - Sunburst Plot.R
+- **workflows/** – Workflow documentation  
+  Stepwise pipelines for quality control, assembly (single-sample and co-assembly), binning (SemiBin2, BAM preparation), dereplication (dRep) and quality check (CheckM2), and abundance profiling (CoverM).  
+  - Quality control.md  
+  - Assembly.md  
+  - Binning.md  
+  - CoverM.md  
+  - dRep_CheckM.md  
 
-- **workflows/** – Workflow documentation
-  - Quality control.md
-  - Assembly.md
-  - Binning.md
-  - CoverM.md
-  - dRep_CheckM.md
-
-- **README.md**
-
----
-
-## Contents
-
-- **Workflows**  
-  Stepwise pipelines for:
-  - Quality control  
-  - Assembly (single-sample and co-assembly)  
-  - Binning (SemiBin2, BAM preparation)  
-  - Dereplication (dRep) and quality check (CheckM2)  
-  - Abundance profiling (CoverM)  
-
-- **Figures**  
-  R scripts for generating publication-ready plots:
-  - Bar plots and stacked bar plots  
-  - Box plots  
-  - Bubble plots (KEGG/functional categories)  
-  - Gene locus plots  
-  - Polar bar plots  
-  - Sankey diagrams  
-  - Sunburst plots  
-  - Scatter plots with marginal histograms  
+- **README.md** – Project overview
 
 ---
 
