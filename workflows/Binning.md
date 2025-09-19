@@ -29,8 +29,8 @@ conda activate SemiBin   # or: conda activate SemiBin1.5.1
 
 SemiBin single_easy_bin \
     -i region.contig.ok.fa \
-    -b region1.clean.bam region2.clean.bam region3.clean.bam region4.clean.bam \
-       region5.clean.bam region6.clean.bam region7.clean.bam region8.clean.bam \
-       region9.clean.bam region10.clean.bam region11.clean.bam region12.clean.bam \
+    -b sample1.clean.bam sample2.clean.bam sample3.clean.bam sample4.clean.bam \
+       sample5.clean.bam sample6.clean.bam sample7.clean.bam sample8.clean.bam \
+       sample9.clean.bam sample10.clean.bam sample11.clean.bam sample12.clean.bam \
     -o region.semibin.out \
     -t 100
